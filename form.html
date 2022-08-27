@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=10">
+<link rel="stylesheet" href="sytle.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<title>
+Registration Form
+</title>
+<style>
+    body {
+      background-image: url('background image 1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+
+<style>
+/* The following tag selector body use the font-family and background-color properties for body of a page*/
+Body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+  background-color: white;
+}
+/* Following container class used padding for generate space around it, and also use a background-color for specifying the lightblue color as a background */  
+
+/* The following tag selector input uses the different properties for specifying the text field. */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:#f1f1f1;
+}
+input[type=text]:focus {
+  background-color: white;
+  outline: none;
+}
+ div {
+            padding: 50px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 50px;
+}
+</style>
+</head>
+<body>
+    <center><h1 style="font-size:60px;">RAYAN RESIDENCY</h1></center>
+
+<marquee><i><h3>
+    <a href="default.asp">
+<img src="smiley.gif" alt="&#128525;IT WILL FEEL LIKE YOU ARE IN PARADISE &#128525;" style="width:42px;height:42px;">
+</a>
+</h3></i>
+</marquee>
+<form >
+<div class="container">
+<center>  <h2> BOOKING FORM </h2> </center>
+<hr>
+<p style="background-image: url(background image.jpg);">
+<div class="row">
+        <marquee><i><img src="image 4.jpg"><img src="image 5.jpg"></i></marquee>
+</div>
+<label> <strong>FIRSTNAME:</strong>   </label>
+<input type="textname="firstname" placeholder= "TYPE HERE" size=15"required/>
+
+<label><strong>LASTNAME:</strong>  </label>  
+<input type="textname="lastname" placeholder="TYPE HERE "size="15"required />
+<br>
+<label><strong>AGE:</strong>  </label>
+<input type="textname="age" placeholder= "TYPE HERE" size="15" required />
+<br>
+
+<label><strong>PHONE NUMBER &#128222;:</strong>   </label>
+<form>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+  
+  <form>
+   <strong> <label for="email">EMAIL ID:</label></strong>
+    <input type="email" id="email" name="email" placeholder="TYPE HERE">
+  </form>  
+  <br>
+  <label><strong>ADDRESS 1:</strong>   </label>
+<input type="text" name="Address 1" placeholder= "TYPE HERE" size="20" required />
+<br>  
+<label><strong>ADDRESS 2:</strong>   </label>
+<input type="text" name="address 2" placeholder="TYPE HERE" size="20" required />
+<br>
+<label><strong>CITY:</strong>  </label>
+<input type="textname="CITY" placeholder= "TYPE HERE" size="15" required />
+<label><strong>STATE:</strong>  </label>
+<input type="textname="STATE" placeholder= "TYPE HERE" size="15" required />
+<br>
+<label><strong>ZIPCODE:</strong>   </label>
+<input type="textname="ZIPCODE" placeholder= "TYPE HERE" size="15" required />
+<br>
+<label><strong>AADHAR CARD NUMBER:</strong></label>
+<input type="textname="AADHAR CARD NUMBER" placeholder="TYPE HERE" size="15" required/>
+<br>
+<label><strong>CHECK-IN DATE AND TIME &#128198:</strong>  </label>
+<form>
+<input type="datetime-local" id="check-intime" name="check-intime">
+<br>
+<label><strong>CHECK-OUT DATE AND TIME  &#128198:</strong>  </label>
+<input type="datetime-local" id="check-outtime" name="check-outtime">
+</form>
+<br>
+<label> <strong>TOTAL NUMBER OF DAYS:</strong></label>
+<form>
+   <input type="number" id="quantity" name="quantity" min="1" max="31">
+</form>
+<br>
+<label> <strong>TOTAL NUMBER OF PERSONS: </strong></label>
+<input type="textame="TOTAL NUMBER OF PERSONS" placeholder="TYPE HERE" size="15" required />
+<br>
+<label><strong> NUMBER of ADULTS:</strong> </label>
+<input type="textame="NUMBER OF ADULTS" placeholder="TYPE HERE" size="15" required />
+<br>
+<label><strong> NUMBER OF CHILDRENS: </strong> </label>
+<input type="textame="NUMBER OF CHILDRENS" placeholder="TYPE HERE" size="15" required />
+<br>
+<div>
+<label>
+   <strong>ROOM TYPE:</strong>
+</label>
+<select>
+<option value="SINGLE BED">SINGLE BED</option>
+<option value="DOUBLE BED">DOUBLE BED</option>
+<option value="HOLLYWOOD TWIN ROON">HOLLYWOOD TWIN ROOM</option>
+<option value="PRESIDENT SUITE">PRESIDENT SUITE</option>
+<option value="MURPHY ROOM">MURPHY ROOM</option>
+<option value="CABANA">CABANA</option>
+<option value="MINI SUITE OR JUNIOR SUITE">MINI SUITE OR JUNIOR SUITE</option>
+<option value="KING ">KING</option>
+<option value="QUEEN">QUEEN</option>
+<option value="TRIPLE">TRIPLE</option>
+<option value="TWIN ROOM">TWIN ROOM</option>
+<option value="CONNECTING ROOM">CONNECTING ROOM</option>
+</select>
+</div>
+<p> <strong>ROOM SHARED WITH:</strong> </p>
+<form>
+  <input type="checkbox" id=BREAKFAST name="BREAKFAST" value="BREAKFAST">
+  <label for="BREAKFAST"> BREAKFAST</label><br>
+  <input type="checkbox" id="LUNCH" name="LUNCH" value="LUNCH">
+  <label for="LUNCH"> LUNCH</label><br>
+  <input type="checkbox" id="DINNER" name="DINNER" value="DINNER">
+  <label for="vehicle3"> DINNER</label>
+</form>
+<p><strong>FREE PICKUP:</strong></p>
+<form>
+  <input type="radio" id="YES, SURE" name="fav_language" value="YES, SURE">
+  <label for="YES, SURE">YES, SURE</label><br>
+  <input type="radio" id="NO, I ALREADY RENTED A CAR" name="fav_language" value="NO, I ALREADY RENTED A CAR">
+  <label for="NO, I ALREADY RENTED A CAR">NO, I ALREADY RENTED A CAR</label><br>
+</form>
+<p><strong>LEASE POCKET WIFI:</strong></p>
+<form>
+  <input type="radio" id="YES " name="fav_language" value="YES">
+  <label for="YES">YES</label><br>
+  <input type="radio" id="NO" name="fav_language" value="NO">
+  <label for="NO">NO</label><br>
+</form>
+<p><strong>DO YOU WANT SMOKING FACILITY IN ROOM?:</strong></p>
+<form>
+  <input type="radio" id="YES " name="fav_language" value="YES">
+  <label for="YES">YES</label><br>
+  <input type="radio" id="NO" name="fav_language" value="NO">
+  <label for="NO">NO</label><br>
+</form>
+<p><strong>DO YOU WANT SPA FACILITY:</strong></p>
+<form>
+  <input type="radio" id="YES " name="fav_language" value="YES">
+  <label for="YES">YES</label><br>
+  <input type="radio" id="NO" name="fav_language" value="NO">
+  <label for="NO">NO</label><br>
+</form>
+<p><strong>MODE OF PAYMENT:</strong></p>
+<form>
+  <input type="radio" id="DEBIT CARD " name="fav_language" value="DEBIT CARD">
+  <label for="DEBIT CARD">DEBIT CARD</label><br>
+  <input type="radio" id="CREDIT CARD" name="fav_language" value="CREDIT CARD">
+  <label for="CREDIT CARD">CREDIT CARD</label><br>
+  <input type="radio" id="CHEQUE" name="fav_language" value="CHEQUE">
+  <label for="CHEQUE">CHEQUE</label><br>
+</form>
+<br>
+<P><strong>ANY PROOF IMAGE(LIKE AADHAR CARD,RATION PROOF):</strong></P> 
+<form>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile">
+  </form> 
+  <br>
+
+<p><strong>DO YOU WANT ANYTHING SPECIAL:</p></strong>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">Type here.</textarea>
+  <br><br>
+  </form>
+
+    
+<centre><button onclick='alert("Booking Confirmed")';style="background-color:green;margin-left:auto;margin-right:auto;border-radius:20px;margin-top:50%;margin-bottom:50%">TAP ME &#9193; </button> </centre>
+</form>
+<button onclick="history.back()" style="background-color:red;margin-left:auto;margin-right:auto;display:block;margin-top:5%;margin-bottom:auto">Go back &#128281;</button>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>COMPANY:</h4>
+                <u1>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Affiliate programe</a></li>
+                </u1>
+            </div>
+            <div class="footer-col">
+                <h4>GET HELP:</h4>
+                <u1>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Booking status</a></li>
+                    <li><a href="#">Payment options</a></li>
+                </u1>
+            </div>
+            <div class="footer-col">
+                <h4>FOLLOW US:</h4>
+                <div class="socia"-links>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+         </div>
+         </div>
+        </div>
+</footer>
+      </body>
+</html>
+
+
+
+	
+	
+	
